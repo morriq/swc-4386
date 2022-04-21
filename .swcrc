@@ -1,0 +1,14 @@
+{
+  "jsc": {
+    "parser": {
+      "tsx": true,
+      "syntax": "typescript",
+      "dynamicImport": true
+    },
+    "transform": {
+      "react": {
+        "runtime": "automatic"
+      }
+    }
+  }
+}
