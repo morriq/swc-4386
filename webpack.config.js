@@ -37,7 +37,9 @@ module.exports = (_, { mode }) => {
               conditionals: false,
               evaluate: false,
             },
-            mangle: true,
+            mangle: {
+              topLevel: false,
+            },
           },
         }),
       ],
